@@ -1,21 +1,23 @@
-.app-title-container{
-  background-color: white;
-  width: 60%;
+.app-title-container {
+  background-color: rgb(146, 240, 220);
+  width: 45%;
   display: block;
   margin-left: auto;
   margin-right: auto;
+  color: rgb(239, 56, 56);
   margin-top: 20px;
-  padding: 10px;
-  border-radius: 8px;
-  border: 3px double black;
+  padding: 8px;
+  border-radius: 15px;
+  box-shadow: 0px 0px 2px 2px rgb(17, 154, 102);
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
-.app-title{
+.app-title {
   text-align: center;
-  margin:0;
+  margin: 0;
 }
 
-.main-emoji-container{
+.main-emoji-container {
   height: 250px;
   width: 250px;
   display: block;
@@ -26,41 +28,43 @@
   box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.4);
 }
 
-.main-emoji{
+.main-emoji {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100%;
 }
 
-.emoji-container{
-  background-color: white;
+.emoji-container {
   display: flex;
   justify-content: space-evenly;
   width: 400px;
   margin-top: 80px;
   margin-left: auto;
   margin-right: auto;
-  border-radius: 50px;
 }
 
-.emoji-item{
-  font-size: 40px;
+.emoji-item {
+  background-color: (126, 193, 235);
   margin: 10px;
   cursor: pointer;
+  font-size: 50px;
+  width: 70px;
+  height: 70px;
+  box-shadow: 0 0 5px 3px rgba(250, 11, 11, 0.6);
+  border-radius: 100%;
 }
 
-.emoji-item:hover{
+.emoji-item:hover {
   transform: scale(1.4);
 }
 
-.emoji-editor-container{
+.emoji-editor-container {
   display: flex;
   justify-content: space-around;
 }
 
-.colors-container{
-  background-color: white;
+.colors-container {
   display: flex;
   justify-content: space-evenly;
   width: 500px;
@@ -69,47 +73,73 @@
   margin-top: 100px;
 }
 
-.color-item{
-  border: 1px solid gray;
-  border-radius: 5px;
-  width: 60px;
-  height: 40px;
+.color-container {
+  background-color: transparent;
+  display: flex;
+  justify-content: space-evenly;
+  width: 400px;
 }
-
-.color-item:hover{
+.color-block {
+  margin-top: 15px;
+}
+.color-container-item {
+  height: 50px;
+  width: 50px;
+  cursor: pointer;
+  box-shadow: 0 0 5px 3px rgba(0, 0, 0, 0.6);
+  border-radius: 50%;
+}
+.color-container-item:hover {
   cursor: pointer;
   transform: scale(1.1);
 }
-
-.bg-red{
+.bg-red {
   background-color: red;
 }
-
-.bg-purple{
-  background-color: purple;
+.bg-gray {
+  background-color: gray;
 }
-
-.bg-pink{
-  background-color: pink;
+.bg-deepskyblue {
+  background-color:deepskyblue;
 }
-
-.bg-yellow{
-  background-color: yellow;
+.bg-cyan {
+  background-color:cyan;
 }
-
-.bg-black{
+.bg-dark {
   background-color: black;
 }
-
-.size-container{
-  background-color: white;
-  width: 500px;
-  height: 40px;
-  padding: 10px;
-  border-radius: 30px;
-  margin-top: 50px;
+.bg-coral {
+  background-color: coral;
+}
+.bg-light {
+  background-color: bisque;
+}
+.bg-tomato {
+  background-color:tomato;
+}
+.bg-blue {
+  background-color: blue;
+}
+.bg-pink {
+  background-color: palevioletred;
 }
 
-.size-slider{
+.size-container {
+  background-color: white;
+  width: 500px;
+  height: 25px;
+  padding: 10px;
+  border-radius: 30px;
+  margin-top: 20px;
+}
+
+.size-slider {
   width: 100%;
+}
+
+.editor-heading
+{
+  color: rgb(178, 52, 128);
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  box-shadow: 3px red;
 }
